@@ -1,7 +1,6 @@
 .venv
 .idea
 .env
-.env-non-dev
 .env-render
 __pycache__
 # *.ipynb*
