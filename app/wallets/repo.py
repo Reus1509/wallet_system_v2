@@ -1,10 +1,9 @@
 from fastapi import HTTPException, Request
 from fastapi.responses import JSONResponse
+from sqlalchemy import select
 
-from app.wallets.shemas import SOperationRequest, SCreateWalletRequest
 from base_repo import BaseRepo
 from database import async_session_maker
-from sqlalchemy import select
 from app.wallets.models import Wallet
 
 
